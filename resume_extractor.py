@@ -1,5 +1,3 @@
-from turtle import st
-
 from pypdf import PdfReader
 from docx import Document
 
