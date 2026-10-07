@@ -290,7 +290,7 @@ st.markdown(
 # LOAD MODEL
 # ==========================================================
 
-MODEL_DIR = BASE_DIR / "models"
+MODEL_DIR = BASE_DIR
 
 
 @st.cache_resource
