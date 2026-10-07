@@ -268,7 +268,14 @@ st.markdown(
          [data-testid="stWidgetLabel"] {
             color: white !important;
 }
-
+.stMarkdown,
+.stText,
+.stCaption,
+.stSelectbox label,
+.stSlider label,
+.stRadio label {
+    color: white !important;
+}
     /* ================================
        DIVIDER
     ================================= */
