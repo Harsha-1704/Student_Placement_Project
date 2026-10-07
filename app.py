@@ -263,7 +263,11 @@ st.markdown(
 
         color: white;
     }
-
+    label,
+         [data-testid="stWidgetLabel"] p,
+         [data-testid="stWidgetLabel"] {
+            color: white !important;
+}
 
     /* ================================
        DIVIDER
