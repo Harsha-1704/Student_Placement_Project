@@ -22,15 +22,14 @@ sys.path.append(
 # IMPORT PROJECT MODULES
 # ==========================================================
 
-from src.resume_extractor import extract_resume_text
-from src.resume_analyzer import analyze_resume
-from src.resume_feature_mapper import map_resume_to_features
-from src.communication_assessment import analyze_communication
-from src.coding_assessment import analyze_coding
-from src.skill_gap_analysis import analyze_skill_gap
-from src.ai_recommendations import generate_recommendations
-from src.career_guidance import generate_career_guidance
-
+from resume_extractor import extract_resume_text
+from resume_analyzer import analyze_resume
+from resume_feature_mapper import map_resume_to_features
+from communication_assessment import analyze_communication
+from coding_assessment import analyze_coding
+from skill_gap_analysis import analyze_skill_gap
+from ai_recommendations import generate_recommendations
+from career_guidance import generate_career_guidance
 
 # ==========================================================
 # PAGE CONFIGURATION
