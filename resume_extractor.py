@@ -3,7 +3,6 @@ from turtle import st
 from pypdf import PdfReader
 from docx import Document
 
-
 def extract_pdf_text(file):
     reader = PdfReader(file)
 
@@ -40,4 +39,3 @@ def extract_resume_text(file):
 
     else:
         return "Unsupported file format."
-    
